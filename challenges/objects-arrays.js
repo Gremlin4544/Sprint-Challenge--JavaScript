@@ -160,18 +160,6 @@ const populationTotal = zooAnimals.reduce((total, currentValue) =>{
   return total + currentValue.population;
 }, 
 0);;
-// zooAnimals.reduce((total, currentValue)=>{
-//   console.log(`I am the total ${total}`);
-//   console.log(`I am the currentValue ${currentValue.population}`);
-//   return total + currentValue.population;
-// }, 
-// 0);;
-
-// zooAnimals.reduce(function(accumulator, currentValue){
-//   console.log(`I am the accumulator ${accumulator}`);
-//   console.log(`I am the currentValue ${currentValue.population}`);
-//   return accumulator + currentValue.population;
-// }, 0);
 
 console.log(populationTotal);
 
